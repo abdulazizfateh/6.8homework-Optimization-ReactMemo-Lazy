@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+@font-face {
+    font-family: Inter;
+    src: url(../src/assets/fonts/Inter-VariableFont_opsz\,wght.ttf);
+}
+
+@theme {
+    --color-primary-bg: #030712;
+    --color-secondary-bg: #11131e;
+    --color-border: #1d1f29;
+    --color-primary-text: #fff;
+    --color-secondary-text: #d1d5dc;
+    --color-third-text: #98a1ae;
+    --color-highlight-blue: #00bcff;
+
+    --font-Inter: Inter;
+}
+
+* {
+    font-family: var(--font-Inter);
+}
+
+body {
+    color: var(--color-primary-text);
+    background-color: var(--color-primary-bg);
+}
+
+.container {
+    padding: 0 12px;
+}
+
+@media (min-width: 640px) {
+    .container {
+        padding: 0 16px;
+    }
+}
+
+.header_link.active {
+    border-color: var(--color-highlight-blue);
+}
