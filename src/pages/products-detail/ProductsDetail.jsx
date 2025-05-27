@@ -39,19 +39,19 @@ const ProductsDetail = () => {
                             <p className='text-[hotpink] text-[32px] max-md:text-[26px] max-sm:text-[24px]'>${data?.price}</p>
                         </div>
                         <div className='py-3 max-md:py-2 max-md:px-2.5 px-3.5 border-b border-border'>
-                            <p className='text-sm max-md:text-[11px]'><span className='text-secondary-text'>Brand:</span> Brand <span></span></p>
-                        </div>
-                        <div className='py-3 max-md:py-2 max-md:px-2.5 px-3.5 border-b border-border flex items-center gap-3 max-md:gap-2 max-md:gap-1.5'>
-                            <p className='text-sm max-md:text-[11px]'><span className='text-secondary-text'>Availability status:</span> Available</p>
+                            <p className='text-sm max-md:text-[11px]'><span className='text-secondary-text'>Brand:</span> Not Found<span></span></p>
                         </div>
                         <div className='py-3 max-md:py-2 max-md:px-2.5 px-3.5 border-b border-border'>
-                            <p className='text-sm max-md:text-[11px]'><span className='text-secondary-text'>Return Policy:</span> Return PP <span></span></p>
+                            <p className='text-sm max-md:text-[11px]'><span className='text-secondary-text'>Availability status:</span> Not Found</p>
                         </div>
                         <div className='py-3 max-md:py-2 max-md:px-2.5 px-3.5 border-b border-border'>
-                            <p className='text-sm max-md:text-[11px]'><span className='text-secondary-text'>Shipping Information:</span>  <span></span></p>
+                            <p className='text-sm max-md:text-[11px]'><span className='text-secondary-text'>Return Policy:</span> Not Found<span></span></p>
                         </div>
                         <div className='py-3 max-md:py-2 max-md:px-2.5 px-3.5 border-b border-border'>
-                            <p className='text-sm max-md:text-[11px]'><span className='text-secondary-text'>Warranty Information:</span> <span></span></p>
+                            <p className='text-sm max-md:text-[11px]'><span className='text-secondary-text'>Shipping Information:</span> Not Found<span></span></p>
+                        </div>
+                        <div className='py-3 max-md:py-2 max-md:px-2.5 px-3.5 border-b border-border'>
+                            <p className='text-sm max-md:text-[11px]'><span className='text-secondary-text'>Warranty Information:</span> Not Found<span></span></p>
                         </div>
                         <div className='py-3 max-md:py-2.5 flex-1 flex flex-col justify-end max-lg:items-end max-md:px-2.5 px-3.5'>
                             <button className='cursor-pointer max-lg:w-[50%] w-[94%] max-lg:mx-0 mx-auto h-12 max-lg:h-10 max-md:h-9 max-md:text-sm max-md:rounded-lg text-lg font-medium border border-highlight-blue rounded-xl bg-highlight-blue'>Add to cart</button>
