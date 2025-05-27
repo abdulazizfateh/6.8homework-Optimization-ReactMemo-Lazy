@@ -33,7 +33,7 @@ const UsersDetail = () => {
                             }
                         </div>
                         <div className='h-8 md:h-11 flex items-center border-b border-b-border'>
-                            <p className='px-3 text-[11px] md:text-sm text-secondary-text line-clamp-1'>Full name:<span className='text-white'> {data?.name.firstname} {data?.name.lastname}</span></p>
+                            <p className='px-3 text-[11px] md:text-sm text-secondary-text line-clamp-1'>Full name:<span className='text-white capitalize'> {data?.name.firstname} {data?.name.lastname}</span></p>
                         </div>
                         <div className='h-8 md:h-11 flex items-center border-b border-b-border'>
                             <p className='px-3 text-[11px] md:text-sm text-secondary-text line-clamp-1'>Username: <span className='text-highlight-blue cursor-pointer'>@{data?.username}</span></p>
